@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/health"
+        android:enabled="true"
+        android:icon="@drawable/ic_health"
+        android:title="Health Care"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/image"
+        android:enabled="true"
+        android:icon="@drawable/ic_image"
+        android:title="Image"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/video"
+        android:enabled="true"
+        android:icon="@drawable/ic_video"
+        android:title="video"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/chat"
+        android:enabled="true"
+        android:icon="@drawable/ic_chat"
+        android:title="chat"
+        app:showAsAction="ifRoom"/>
+
+
+
+
+</menu>
